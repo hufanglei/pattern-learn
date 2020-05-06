@@ -7,6 +7,7 @@ package com.example.pattern.simplyPattern;
  * @author hfl
  * @version V1.0
  * @date 2020-05-07
+ *
  */
 public class Test {
     public static void main(String[] args) {
