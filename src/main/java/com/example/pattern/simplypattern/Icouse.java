@@ -1,4 +1,4 @@
-package com.example.pattern.simplyPattern;
+package com.example.pattern.simplypattern;
 
 /**
  * Title: Icouse
