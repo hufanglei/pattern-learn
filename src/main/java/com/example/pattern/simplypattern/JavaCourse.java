@@ -8,9 +8,11 @@ package com.example.pattern.simplypattern;
  * @version V1.0
  * @date 2020-05-07
  */
+
 public class JavaCourse implements Icouse {
     @Override
     public void record() {
+
         System.out.println("录制java课程");
     }
 }

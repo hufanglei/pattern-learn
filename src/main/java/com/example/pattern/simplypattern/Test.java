@@ -14,8 +14,10 @@ public class Test {
         //原始做法
 //        Icouse icouse = new JavaCourse();
         //简单工厂写法1:
-        Icouse icouse = CourseFactory.getCourse("java");
+//        Icouse icouse = CourseFactory.getCourse("java");
         //简单工厂写法2---反射写法
+        Icouse icouse = CourseFactory.getCourse("com.example.pattern.simplypattern.JavaCourse");
+        //
         icouse.record();
     }
 }
