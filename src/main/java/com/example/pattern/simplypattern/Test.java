@@ -9,16 +9,17 @@ package com.example.pattern.simplypattern;
  * @date 2020-05-07
  *
  */
-public class Test {
+public class Test extends CourseFactory {
     public static void main(String[] args) {
         //原始做法
 //        Icouse icouse = new JavaCourse();
         //简单工厂写法1:
-        Icouse icouse3 = CourseFactory.getCourse3("java");
+        CourseFactory factory = new CourseFactory();
+        Icouse icouse3 = factory.getCourse3("java");
         //简单工厂写法2---反射写法
-        Icouse icouse2 = CourseFactory.getCourse2("com.example.pattern.simplypattern.JavaCourse");
+        Icouse icouse2 = factory.getCourse2("com.example.pattern.simplypattern.JavaCourse");
         //简单工厂写法3---反射写法2
-        Icouse icouse = CourseFactory.getCourse(JavaCourse.class);
+        Icouse icouse = factory.getCourse(JavaCourse.class);
         icouse.record();
     }
 }

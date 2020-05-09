@@ -3,7 +3,7 @@ package com.example.pattern.simplypattern;
 import com.sun.org.apache.regexp.internal.RE;
 
 /**
- * Title: CourseFactory
+ * Title: ICourseFactory
  * Description: TODO
  *
  * @author hfl
@@ -11,7 +11,7 @@ import com.sun.org.apache.regexp.internal.RE;
  * @date 2020-05-07
  */
 public class CourseFactory {
-    public static Icouse getCourse3(String name) {
+    public  Icouse getCourse3(String name) {
         //写法1
         if ("java".equals(name)) {
             return new JavaCourse();
@@ -19,11 +19,11 @@ public class CourseFactory {
         return null;
     }
 
-    public static Icouse getCourse2(String className) {
+    public  Icouse getCourse2(String className) {
         //写法2:
         Class<?> clazz = null;
         try {
-//          clazz = Class.forName("com.example.pattern.simplypattern.JavaCourse");
+//          clazz = Class.forName("com.example.pattern.PythonCourse.JavaCourse");
             clazz = Class.forName(className);
             Object instance = clazz.newInstance();
             return (Icouse) instance;
@@ -33,7 +33,7 @@ public class CourseFactory {
         return null;
     }
 
-    public static Icouse getCourse(Class clazz) {
+    public  Icouse getCourse(Class clazz) {
         try {
             if (null != clazz) {
                 return (Icouse) clazz.newInstance();
