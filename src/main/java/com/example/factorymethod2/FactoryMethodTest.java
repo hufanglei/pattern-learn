@@ -1,4 +1,4 @@
-package com.example.com.example.factorymethod2;
+package com.example.factorymethod2;
 
 import com.example.pattern.simplypattern.Icouse;
 
