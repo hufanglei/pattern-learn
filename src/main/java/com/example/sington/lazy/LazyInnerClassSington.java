@@ -10,7 +10,12 @@ package com.example.sington.lazy;
  * @date 2020-05-11
  */
 public class LazyInnerClassSington {
+
+    //虽然构造方法有了，但是逃不过反射的法眼
     private LazyInnerClassSington() {
+        if (LazyHolder.lazy != null){
+            throw new RuntimeException("不允许构建多个实例");
+        }
     }
     //懒汉式单例
     //LazyHolder里面的逻辑需要等到外部方法调用时才执行
