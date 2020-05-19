@@ -1,7 +1,7 @@
 package com.example.prototype.simple;
 
 /**
- * Created by Tom.
+ * .
  */
 public class Client {
 

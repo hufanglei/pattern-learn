@@ -6,7 +6,7 @@ import com.example.proxy.staticproxy.Son;
 import org.springframework.cglib.core.DebuggingClassWriter;
 
 /**
- * Created by Tom on 2019/3/11.
+ *  on 2019/3/11.
  */
 public class CglibTest {
     public static void main(String[] args) {

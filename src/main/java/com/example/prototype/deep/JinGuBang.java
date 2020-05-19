@@ -3,7 +3,7 @@ package com.example.prototype.deep;
 import java.io.Serializable;
 
 /**
- * Created by Tom.
+ * .
  */
 public class JinGuBang implements Serializable {
     public float h = 100;

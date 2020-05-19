@@ -3,7 +3,7 @@ package com.example.sington.register;
 import java.util.concurrent.*;
 
 /**
- * Created by Tom.
+ * .
  */
 public class ConcurrentExecutor {
     /**

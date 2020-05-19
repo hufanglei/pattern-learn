@@ -3,7 +3,7 @@ package com.example.sington.seriable;
 import java.io.Serializable;
 
 /**
- * Created by Tom.
+ * .
  */
 
 //反序列化时导致单例破坏

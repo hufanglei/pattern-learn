@@ -5,7 +5,7 @@ import com.example.sington.register.ConcurrentExecutor;
 import com.example.sington.register.ContainerSingleton;
 
 /**
- * Created by Tom.
+ * .
  */
 public class ContainerSingletonTest {
     public static void main(String[] args) {
