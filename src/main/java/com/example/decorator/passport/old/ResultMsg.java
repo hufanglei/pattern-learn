@@ -1,14 +1,10 @@
-package com.example.adapter.loginadapter;
+package com.example.decorator.passport.old;
 
 /**
- * Title: ResultMsg
- * Description: 统一返回格式
- *
- * @author hfl
- * @version V1.0
- * @date 2020-05-21
+ * Created by Tom.
  */
 public class ResultMsg {
+
     private int code;
     private String msg;
     private Object data;

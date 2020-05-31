@@ -1,12 +1,7 @@
 package com.example.template.jdbc;
 
 /**
- * Title: Member
- * Description: TODO
- *
- * @author hfl
- * @version V1.0
- * @date 2020-05-20
+实体类
  */
 public class Member {
     private String username;

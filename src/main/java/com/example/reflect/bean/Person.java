@@ -1,5 +1,8 @@
 package com.example.reflect.bean;
 
+import com.example.reflect.demo.FillCommentEnum;
+import com.example.reflect.annotation.RecordTemplateAnnotation;
+
 /**
  * Title: Person
  * Description: TODO
@@ -9,6 +12,7 @@ package com.example.reflect.bean;
  * @date 2020-05-02
  */
 public class Person {
+    @RecordTemplateAnnotation(rowNo = 6, columnNo = 2, comment = FillCommentEnum.EMPTY, name = "车辆颜色")
     private int age;
     private String name;
 

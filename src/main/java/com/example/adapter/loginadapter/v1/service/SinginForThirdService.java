@@ -4,7 +4,8 @@ package com.example.adapter.loginadapter.v1.service;
 import com.example.adapter.loginadapter.ResultMsg;
 
 /**
- * Created by hfl on 2019/3/16.
+ * 新增第三方登录方式，
+ * 兼容原来的注册登录(通过继承方式实现)
  */
 public class SinginForThirdService extends SiginService {
 
@@ -28,7 +29,6 @@ public class SinginForThirdService extends SiginService {
     }
 
     public ResultMsg loginForTelphone(String telphone,String code){
-
         return null;
     }
 

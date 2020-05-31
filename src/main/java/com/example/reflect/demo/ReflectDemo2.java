@@ -35,7 +35,7 @@ public class ReflectDemo2 {
     private static void createObect2() throws ClassNotFoundException, NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
         String name = "com.example.reflect.bean.Person";
         Class<?> clazz = Class.forName(name);
-        Constructor<?> constructor = clazz.getConstructor( String.class, int.class);
+        Constructor<?> constructor = clazz.getConstructor(String.class, int.class);
         Person p = (Person) constructor.newInstance("小强",18);
         p.show();
     }
