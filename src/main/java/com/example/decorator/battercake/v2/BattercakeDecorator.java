@@ -15,6 +15,8 @@ public abstract class BattercakeDecorator extends Battercake {
         this.battercake = battercake;
     }
 
+
+    //、用于扩展一个类的功能或给一个类添加附加职责。
     protected abstract void doSomething();
 
     @Override
