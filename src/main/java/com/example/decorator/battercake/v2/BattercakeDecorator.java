@@ -26,6 +26,6 @@ public abstract class BattercakeDecorator extends Battercake {
 
     @Override
     protected int getPrice() {
-        return this.battercake.getPrice() + 1;
+        return this.battercake.getPrice();
     }
 }

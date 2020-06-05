@@ -25,6 +25,6 @@ public class EggDecorator extends BattercakeDecorator {
 
     @Override
     protected int getPrice() {
-        return super.getPrice();
+        return super.getPrice() +1;
     }
 }

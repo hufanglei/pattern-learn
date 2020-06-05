@@ -2,7 +2,7 @@ package com.example.decorator.battercake.v2;
 
 /**
  * Title: SausageDecorator
- * Description: TODO
+ * Description: 香肠装饰者
  *
  * @author hfl
  * @version V1.0
