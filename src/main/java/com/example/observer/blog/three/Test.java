@@ -22,7 +22,5 @@ public class Test {
         subject.setPolluteLevel(1);
         System.out.println("当水质为中度污染的时候-----------");
         subject.setPolluteLevel(2);
-
-
     }
 }
